@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+:root {
+  --darkblue: #2d314d;
+  --limeGreen: #31d35c;
+  --brightcyan: #2bb7da;
+  --grayishBlue: #9698a6;
+  --lightGrayishBlue: #f3f4f6;
+  --veryLightGray: #fafafa;
+  --white: #fff;
+}
+
+body {
+  font-size: 18px;
+  height: 100vh;
+  overflow-y: auto;
+  font-family: "Public Sans", sans-serif;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.titleText {
+  color: var(--darkblue);
+  font-weight: 300;
+}
+
+.paragraphText {
+  color: var(--grayishBlue);
+}
+
+.autherText {
+  color: var(--grayishBlue);
+  font-size: 10px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.requestBtn {
+  background: linear-gradient(90deg, #31d35c 0%, #2bb7db 100%) no-repeat !important;
+  border:none !important;
+}
+
+.footerText{
+    color: var(--grayishBlue);
+    font-size: 14px;
+}
+.heroSection {
+  background: url(images/bg-intro-desktop.svg) no-repeat;
+  background-size: contain;
+  background-position: 100% 0px;
+  overflow: hidden;
+}
+
+.heroSection .heroImage{
+    transform: scale(1.2);
+}
+
+
+
+
+.whychooseSection {
+  padding: 60px 0;
+  background-color: var(--lightGrayishBlue);
+}
+
+.whychooseSection .cardWrapper .card {
+  border: none !important;
+  background-color: var(--lightGrayishBlue);
+}
+
+.topHeader .headerLinkList ,.whychooseSection .cardWrapper .card .cardDescription,.footerSection .footerLinkList {
+  font-size: 14px;
+}
+
+.latestAtricalsSection {
+  padding: 60px 0;
+}
+
+.latestAtricalsSection .cardWrapper .card {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+}
+
+.latestAtricalsSection .cardWrapper .card .cardImage {
+  height: 200px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.latestAtricalsSection .cardWrapper .card .cardImage img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.footerSection {
+  padding: 60px 0;
+  background-color: var(--darkblue);
+}
+
+.footerSection .socialIconList{
+    padding-top: 60px;
+    gap: 20px;
+}
+
+
